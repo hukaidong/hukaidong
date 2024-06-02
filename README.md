@@ -1,4 +1,6 @@
-## Hi there 👋
+## I am Kaidong Hu 👋
+
+<figure><embed src="https://wakatime.com/share/@868b96f2-a347-41ef-b38c-e311088edc60/d13254a0-1266-4a93-80db-34d080d1786d.svg"></embed></figure>
 
 <!--
 **hukaidong/hukaidong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
