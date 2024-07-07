@@ -5,8 +5,10 @@
 :kd-docs: link:https://github.com/orgs/kd-docs/repositories[📖documents]
 :code-stats: https://wakatime.com/share/@868b96f2-a347-41ef-b38c-e311088edc60/2a932a28-e0fa-449b-b28e-9a60caf7201c.svg
 
-
-🍥🍥 https://www.hukaidong.com/[Kaidong's Posts] 🍥🍥
+[subs="+quotes,macros"]
+----
+*====     🍥🍥 https://www.hukaidong.com/[Kaidong's Posts] 🍥🍥     ====*
+----
 
 ### I'm splitting repository into following parts:
 [cols="a,a"]
