@@ -1,5 +1,5 @@
 ## I am Kaidong Hu 👋
-:kd-main: link:https://github.com/hukaidong/repositories[💅Personal]
+:kd-main: link:https://github.com/hukaidong?tab=repositories[💅Personal]
 :kd-research: link:https://github.com/orgs/kd-research/repositories[🔭researches]
 :kd-gems: link:https://github.com/orgs/kd-gems/repositories[💎gems]
 :kd-docs: link:https://github.com/orgs/kd-docs/repositories[📖documents]
