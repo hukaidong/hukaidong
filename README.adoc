@@ -1,0 +1,39 @@
+## I am Kaidong Hu 👋
+:kd-main: link:https://github.com/hukaidong/repositories[💅Personal]
+:kd-research: link:https://github.com/orgs/kd-research/repositories[🔭researches]
+:kd-gems: link:https://github.com/orgs/kd-gems/repositories[💎gems]
+:kd-docs: link:https://github.com/orgs/kd-docs/repositories[📖documents]
+:code-stats: https://wakatime.com/share/@868b96f2-a347-41ef-b38c-e311088edc60/2a932a28-e0fa-449b-b28e-9a60caf7201c.svg
+
+
+🍥🍥 https://www.hukaidong.com/[Kaidong's Posts] 🍥🍥
+
+### I'm splitting repository into following parts:
+[cols="a,a"]
+|===
+a| {kd-main}::  Webs, Posts, Shell profiles, etc..
+{kd-research}:: Reseach projects
+{kd-gems}:: Ruby gems
+{kd-docs}:: Documents that doesn't fits in a post `and` research notes
+a| image::{code-stats}[programming languages spent over time,470,410,opts="interactive"]
+|===
+
+'''
+### Also please take a glance on my favorite repos:
+
+
+[comment]
+--
+**hukaidong/hukaidong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+--
