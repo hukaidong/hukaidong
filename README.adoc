@@ -1,8 +1,8 @@
 ## I am Kaidong Hu 👋
 :kd-main: link:https://github.com/hukaidong?tab=repositories[💅Personal]
-:kd-research: link:https://github.com/orgs/kd-research/repositories[🔭researches]
-:kd-gems: link:https://github.com/orgs/kd-gems/repositories[💎gems]
-:kd-docs: link:https://github.com/orgs/kd-docs/repositories[📖documents]
+:kd-research: link:https://github.com/orgs/kd-research/repositories[🔭Researches]
+:kd-gems: link:https://github.com/orgs/kd-gems/repositories[💎Gems]
+:kd-docs: link:https://github.com/orgs/kd-docs/repositories[📖Documents]
 :code-stats: https://wakatime.com/share/@868b96f2-a347-41ef-b38c-e311088edc60/2a932a28-e0fa-449b-b28e-9a60caf7201c.svg
 
 [subs="+quotes,macros"]
