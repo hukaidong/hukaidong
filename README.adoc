@@ -3,7 +3,7 @@
 :kd-research: link:https://github.com/orgs/kd-research/repositories[🔭Researches]
 :kd-gems: link:https://github.com/orgs/kd-gems/repositories[💎Gems]
 :kd-docs: link:https://github.com/orgs/kd-docs/repositories[📖Documents]
-:code-stats: https://wakatime.com/share/@868b96f2-a347-41ef-b38c-e311088edc60/43ce2f90-1411-491a-85eb-cdb0b61c1c34.svg
+:code-stats: https://wakatime.com/share/@868b96f2-a347-41ef-b38c-e311088edc60/9d960c6d-70b2-402b-82a1-0b0be379e15e.svg
 
 [subs="+quotes,macros"]
 ----
