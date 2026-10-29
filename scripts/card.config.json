@@ -1,0 +1,55 @@
+{
+  "username": "hukaidong",
+  "title": "Most Used Languages",
+  "discover": true,
+  "owners": [
+    {
+      "login": "hukaidong",
+      "requireAuthored": false
+    },
+    {
+      "login": "kd-research",
+      "requireAuthored": true
+    },
+    {
+      "login": "kd-gems",
+      "requireAuthored": true
+    },
+    {
+      "login": "kd-docs",
+      "requireAuthored": true
+    },
+    {
+      "login": "kd-lapwings",
+      "requireAuthored": true
+    },
+    {
+      "login": "SteerSuite",
+      "requireAuthored": true
+    },
+    {
+      "login": "Oikawa-Academy",
+      "requireAuthored": true
+    }
+  ],
+  "excludeOwners": [],
+  "excludeRepos": [
+    "MyLAVIS"
+  ],
+  "excludeLangs": [
+    "Jupyter Notebook",
+    "HTML",
+    "CSS"
+  ],
+  "langsCount": 8,
+  "sizeWeight": 0.3,
+  "countWeight": 0.7,
+  "includeForks": false,
+  "includeArchived": true,
+  "includePrivate": true,
+  "requireAuthoredForOrgs": true,
+  "weightByAuthorship": true,
+  "concurrency": 6,
+  "theme": "auto",
+  "minOwnerShare": 1
+}
