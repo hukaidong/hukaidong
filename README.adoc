@@ -21,8 +21,14 @@ a| image::{code-stats}[programming languages spent over time,470,410,opts="inter
 |===
 
 '''
-### Also please take a glance on my favorite repos:
+### Languages across my repositories
 
+image::profile/top-langs.svg[Most used languages across my personal and organization repositories,470]
+
+_Aggregated across my personal and organization repositories, weighted by code volume, repository count, and my share of commits in each repo._
+
+'''
+### Also please take a glance on my favorite repos:
 
 [comment]
 --

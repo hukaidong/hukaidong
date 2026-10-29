@@ -1,0 +1,53 @@
+name: Language card
+
+on:
+  schedule:
+    # Daily, off the hour to avoid the Actions cron stampede.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: language-card
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Node ships with ubuntu-latest; the flake pins the same toolchain for
+      # local runs, so nothing extra needs installing here.
+      - name: Generate card
+        env:
+          # STATS_TOKEN (a PAT) is the only way to see private repositories.
+          # If it is absent or expired, the script falls back to the workflow
+          # token and refuses to overwrite a card that already contains
+          # private-repo data.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_FALLBACK_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          node scripts/language-card.mjs --out profile/top-langs.svg 2>&1 | tee card.log
+          {
+            echo "### Language card"
+            echo '```'
+            tail -n 20 card.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain -- profile/)" ]; then
+            echo "Card unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git commit -m "chore(card): refresh language card"
+          git push
